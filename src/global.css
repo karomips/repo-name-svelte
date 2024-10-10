@@ -28,13 +28,13 @@ body {
 }
 
 .py-20 {
-    padding-top: 5rem; /* Example for spacing */
-    padding-bottom: 5rem; /* Example for spacing */
+    padding-top: 5rem; /* Spacing for sections */
+    padding-bottom: 5rem; /* Spacing for sections */
 }
 
 .py-32 {
-    padding-top: 8rem; /* Example for spacing */
-    padding-bottom: 8rem; /* Example for spacing */
+    padding-top: 8rem; /* Spacing for sections */
+    padding-bottom: 8rem; /* Spacing for sections */
 }
 
 .text-center {
@@ -64,7 +64,14 @@ body {
 }
 
 .shadow-lg {
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Adjust shadow for depth */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Increased shadow for depth */
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px; /* Maximum width for content */
+    margin: 0 auto; /* Center the container */
+    padding: 0 1rem; /* Horizontal padding */
 }
 
 /* Responsive grid */
@@ -106,4 +113,19 @@ a {
         padding-top: 3rem;
         padding-bottom: 3rem;
     }
+}
+
+/* Section styles */
+section {
+    padding: 2rem 0; /* Vertical padding for sections */
+    border-radius: 0.5rem; /* Rounded corners for sections */
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(5px); /* Blur effect for sections */
+    margin-bottom: 2rem; /* Space between sections */
+}
+
+/* Typography adjustments */
+h2, h3, h6 {
+    margin-bottom: 1rem; /* Spacing between headings and content */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
 }
