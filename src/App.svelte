@@ -1,5 +1,6 @@
 <script>
     import Step from "./Step.svelte";
+    import './global.css';
 
     let steps = [
         { name: 'DaveStore', icon: 'fa-solid fa-cart-shopping' },

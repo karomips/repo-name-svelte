@@ -1,0 +1,21 @@
+/* global.css */
+
+body {
+    font-family: 'Poppins', sans-serif; /* Make sure to include the Poppins font */
+    background-color: #121212; /* Optional background color */
+    color: white;
+}
+
+.text-dark-green {
+    color: #246624; /* Dark green color */
+}
+
+.bg-dark-green {
+    background-color: #246624; /* Dark green background */
+}
+
+.blueShadow {
+    box-shadow: 0 4px 6px rgba(32, 112, 243, 0.5); /* Optional blue shadow effect */
+}
+
+/* Additional styles */
