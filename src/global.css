@@ -1,21 +1,16 @@
 /* global.css */
 
-body {
-    font-family: 'Poppins', sans-serif; /* Make sure to include the Poppins font */
-    background-color: #121212; /* Optional background color */
-    color: white;
+/* Background color for the intro section */
+.intro-bg {
+    background-color: #1a1a1a; /* Dark background color for the intro */
 }
 
-.text-dark-green {
-    color: #246624; /* Dark green color */
+/* Background color for the projects section */
+.projects-bg {
+    background-color: #2c2c2c; /* Slightly lighter dark background for projects */
 }
 
-.bg-dark-green {
-    background-color: #246624; /* Dark green background */
+/* Ensure text color contrasts well with the background */
+.text-light {
+    color: white; /* Light text color */
 }
-
-.blueShadow {
-    box-shadow: 0 4px 6px rgba(32, 112, 243, 0.5); /* Optional blue shadow effect */
-}
-
-/* Additional styles */
